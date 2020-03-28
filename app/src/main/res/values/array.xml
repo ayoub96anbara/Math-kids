@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="langue_liste_preferences">
+        <item>english</item>
+        <item>francais</item>
+        <item>عربي</item>
+
+
+    </array>
+    <array name="langue_liste_valeurs_preferences">
+        <item>en</item>
+        <item>fr</item>
+        <item>ar</item>
+
+    </array>
+
+</resources>

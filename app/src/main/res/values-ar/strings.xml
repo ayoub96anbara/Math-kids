@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math</string>
+    <string name="_true">صحيح</string>
+    <string name="_false">خطا</string>
+    <string name="level">مستوى</string>
+    <string name="music">موسيقى</string>
+    <string name="sound">صوت العداد</string>
+    <string name="language">اللغة</string>
+    <string name="about">حول</string>
+    <string name="Excellent">ممتاز</string>
+    <string name="very_good">حسن جدا</string>
+    <string name="good">حسن</string>
+    <string name="passable">متوسط</string>
+    <string name="Failure">ضعيف</string>
+    <string name="Not_Sufficient">غير كافي</string>
+    <string name="next">التالي</string>
+    <string name="go">هيا</string>
+</resources>

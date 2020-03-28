@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Math</string>
+    <string name="_true">true</string>
+    <string name="_false">false</string>
+    <string name="level">level</string>
+    <string name="music">music</string>
+    <string name="sound">sound chronometre</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-9059580756298090~7138062454</string>
+    <string name="language">language</string>
+    <string name="about">about</string>
+
+    <string name="Excellent">Excellent</string>
+    <string name="very_good">very good</string>
+    <string name="good">good</string>
+    <string name="passable">passable</string>
+    <string name="Not_Sufficient">Not Sufficient</string>
+    <string name="Failure">Failure</string>
+    <string name="next">next</string>
+    <string name="go">go</string>
+    <string name="exit">exit</string>
+
+
+</resources>

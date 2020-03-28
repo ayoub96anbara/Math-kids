@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math</string>
+    <string name="_true">juste</string>
+    <string name="_false">faux</string>
+    <string name="level">niveau</string>
+    <string name="music">musique</string>
+    <string name="sound">son chronometre</string>
+    <string name="language">langue</string>
+    <string name="about">a propos</string>
+    <string name="Excellent">Excellent</string>
+    <string name="very_good">Très bien</string>
+    <string name="good">Bien</string>
+    <string name="passable">Passable</string>
+    <string name="Failure">Faible</string>
+    <string name="Not_Sufficient">Insuffisant</string>
+    <string name="next">suivant</string>
+    <string name="go">allez</string>
+</resources>

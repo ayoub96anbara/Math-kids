@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgrround"
+    >
+
+    <include
+        android:id="@+id/layoutToolBar"
+        layout="@layout/toolbar" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+
+        android:onClick="onClickExit"
+        android:text="@string/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutToolBar" />
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/exit">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickAdd"
+            android:text="+"
+
+            />
+
+        <Button
+            android:id="@+id/moins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickMoins"
+            android:text="-"
+
+            />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/moins"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickMult"
+            android:text="*"
+
+            />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mul"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickDivision" />
+
+        <Button
+            android:id="@+id/max_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/div"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClick_max_min"
+            android:text="min max"
+
+
+            />
+
+        <Button
+            android:id="@+id/revision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/max_min"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickRevision"
+            android:text="مراجعة"
+
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relative2">
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickShare"
+            app:srcCompat="@drawable/ic_share_white_24dp"
+             />
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doMarket"
+            app:srcCompat="@drawable/ic_star_white_24dp"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSettings"
+            app:srcCompat="@drawable/ic_settings_white_24dp"
+            tools:layout_editor_absoluteX="275dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

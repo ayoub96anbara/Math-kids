@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <!--nous vous recommandons de mettre à jour le résumé pour un ListPreference
+     chaque fois que l'utilisateur modifie la préférence afin de décrire le paramètre actuel.-->
+
+    <ListPreference
+
+        android:defaultValue="en"
+        android:dialogIcon="@mipmap/ic_launcher"
+        android:dialogTitle="Sélectionner une langue :"
+        android:entries="@array/langue_liste_preferences"
+        android:entryValues="@array/langue_liste_valeurs_preferences"
+        android:icon="@drawable/ic_language_black_24dp"
+        android:key="preferences_langue"
+        android:summary="Veuillez sélectionner une langue"
+
+        android:title="@string/language"
+
+        />
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        android:key="checkBoxMusic"
+        android:summary="Checkbox summary"
+        android:summaryOff="Cette case est désactivée, cochez-la pour l’activer."
+        android:summaryOn="Cette case est activée, décochez-la pour l désactiver."
+        android:title="@string/music" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_volume_up_black_24dp"
+        android:key="checkBoxSound"
+        android:summary="Checkbox summary"
+        android:summaryOff="Cette case est désactivée, cochez-la pour l’activer."
+        android:summaryOn="Cette case est activée, décochez-la pour l désactiver."
+        android:title="@string/sound"
+
+        />
+    <PreferenceScreen
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:key="restore_all"
+        android:title="Restore A  0" />
+    <PreferenceScreen
+        android:icon="@drawable/ic_email_black_24dp"
+        android:key="email_us"
+        android:title="راسلنا"
+
+        />
+    <!--مباشرة ايمايل-->
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/about"
+
+        />
+    <!--معلومات المطور -->
+
+
+</PreferenceScreen>
